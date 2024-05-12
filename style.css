@@ -1,0 +1,78 @@
+body {
+  font-family: "Manrope", sans-serif !important;
+  font-optical-sizing: auto;
+  overflow-x: hidden;
+}
+
+.active {
+  color: #ff4240 !important;
+}
+
+.ticket-btn {
+  background-color: #ff4240 !important;
+  color: white !important;
+}
+
+.carousel-item img {
+  height: 550px;
+}
+
+.carousel-control-next {
+  left: 80px !important;
+}
+
+.carousel-control-prev {
+  left: 25px !important;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: black !important;
+  border-radius: 50%;
+  top: 85% !important;
+  opacity: 1 !important;
+  width: 40px !important;
+  height: 40px !important;
+  padding: 10px !important;
+}
+
+.program-card-1{
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,1)), url("./Images/2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.program-card-2{
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,1)), url("./Images/3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.program-card-3{
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,1)), url("./Images/4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.price{
+  color: #ff4240;
+  font-weight: 700;
+}
+.message-btn {
+  background-color: #ff4240 !important;
+  color: white !important;
+}
+
+
+.footer{
+  background-color: #131318;
+  color: white;
+}
+@media (max-width: 767.98px) {
+  .carousel-control-next {
+    left: 50% !important;
+  }
+
+  .carousel-control-prev {
+    left: 40% !important;
+  }
+}
